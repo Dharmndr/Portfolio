@@ -20,8 +20,7 @@ HTML5 – Structure
 
 CSS3 – Styling & Layout
 
-JavaScript (Vanilla JS) – Interactivity
+JavaScript – Interactivity
 
 Responsive Design – Flexbox & Media Queries
 
-Deployment – GitHub Pages / Vercel
