@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Dharm</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span>Dharmendra Kumar</span></h1>
+    <p>A passionate Web Developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Professional Web Developer who loves building interactive websites and applications. I enjoy solving Data Structures Problem.
+        <br>
+       This portfolio showcases my skills and projects.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">React.js</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express.js</div>
+      <div class="skill">Tailwind CSS</div>
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">C++</div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>Mega Blog</h3>
+      <p>A blogging platform where people can post blogs. Built with React, Redux Toolkit and Appwrite as backend for scalable content management and user authentication. 
+      <br>
+      Technologies: React.js, Redux, Appwrite, Tailwind CSS.</p>
+      <div class="project-links">
+        <a href="https://mega-blog-project-jet.vercel.app/" target="_blank">Demo</a>
+        <a href="https://github.com/Dharmndr/Mega-Blog-Project" target="_blank">Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Currency Exchange App</h3>
+      <p>Currency converter application that uses Exchange Rate API for real-time currency conversion and form handling using Axios and 
+      Body-Parser. <br>
+      Technologies: Node.js, Express.js, CSS, EJS, Exchange Rate API</p>
+      <div class="project-links">
+        <a href="https://currency-exchange-app-8.onrender.com/" target="_blank">Demo</a>
+        <a href="https://github.com/Dharmndr/Currency-Exchange-App" target="_blank">Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Quiz App</h3>
+      <p>A Quiz platform with timed questions, score tracking, and a progress bar. 
+      Users can track their high scores with real-time feedback and progress indicators for better engagement. 
+      <br>
+      Technologies: React.js, Tailwind CSS, React Router</p>
+      <div class="project-links">
+        <a href="https://quiz-app-xi-nine-19.vercel.app/" target="_blank">Demo</a>
+        <a href="https://github.com/Dharmndr/QuizApp" target="_blank">Code</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dharmendra Kumar | Interactive Digital Portfolio Website </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
